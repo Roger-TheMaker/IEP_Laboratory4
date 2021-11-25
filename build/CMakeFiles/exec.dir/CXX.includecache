@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/roger/Desktop/IEP/lab4/Avion.cpp
+string
+-
+iostream
+-
+
+/home/roger/Desktop/IEP/lab4/Safe.cpp
+utility
+-
+
+/home/roger/Desktop/IEP/lab4/Tomcat.cpp
+iostream
+-
+string
+-
+Avion.cpp
+/home/roger/Desktop/IEP/lab4/Avion.cpp
+
+/home/roger/Desktop/IEP/lab4/main.cpp
+./Tomcat.cpp
+/home/roger/Desktop/IEP/lab4/Tomcat.cpp
+./Safe.cpp
+/home/roger/Desktop/IEP/lab4/Safe.cpp
+iostream
+-
+

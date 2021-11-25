@@ -145,7 +145,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=HelloWorld
+CMAKE_PROJECT_NAME:STATIC=exec
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -214,6 +214,12 @@ HelloWorld_BINARY_DIR:STATIC=/home/roger/Desktop/IEP/lab4/build
 
 //Value Computed by CMake
 HelloWorld_SOURCE_DIR:STATIC=/home/roger/Desktop/IEP/lab4
+
+//Value Computed by CMake
+exec_BINARY_DIR:STATIC=/home/roger/Desktop/IEP/lab4/build
+
+//Value Computed by CMake
+exec_SOURCE_DIR:STATIC=/home/roger/Desktop/IEP/lab4
 
 
 ########################
