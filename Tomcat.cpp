@@ -8,25 +8,22 @@ using namespace::std;
 class Tomcat : public Avion
 {
  public:
- 	Tomcat ( int planeId, string fuelPlane ): Avion(planeId), planefuel(fuelPlane) {}
-	Tomcat ( const Tomcat& rhs ): Avion ( rhs ), planefuel(rhs.planefuel)
-	{
-	   // right hand side operator
-	}
+ 	Tomcat ( int planeId, string planeName ): Avion(planeId), planename(planeName) {}
+	Tomcat ( const Tomcat& rhs ): Avion ( rhs ), planename(rhs.planename){}
 	
-	Tomcat& operator= ( const Tomcat& rhs )
+	Tomcat& operator= ( const Tomcat& rhs ) // item 12
 	{
-		Avion::operator=(rhs);
-		planefuel = rhs.planefuel;
-		return *this; //item 10
-	}// copy operator
+		Avion::operator=(rhs); // item 12
+		planename = rhs.planename;
+		return *this;
+	}
 	
 	void ToString ( )
 	{
-	cout << "planeId: " << getplaneId() << "; plane Fuel: " << planefuel << endl; 
+	cout << "planeId: " << getplaneId() << "; plane Name: " << planename << endl; 
 	}
 	
- private:
- 	string planefuel;	 
+ protected:
+ 	string planename;	 
 };
 

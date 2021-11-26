@@ -6,20 +6,22 @@ using namespace::std;
 
 class Avion
 {
-  protected:
+  public:
   	 
   	 Avion (int planeId): planeid (planeId) {};
- 	 Avion (const Avion& rhs ): planeid  ( rhs.planeid ) {}; //copy constructor
+ 	 Avion (const Avion& rhs ): planeid  ( rhs.planeid ) {}; // copy constructor
  	 
-	 Avion& operator = ( const Avion& rhs )  //copy operator
+	 Avion& operator = ( const Avion& rhs ) 
+	 // supraincarcarea operatorului de assignment
+	 // tipul returnat este o referinta la clasa curenta
    	 {
    	 	planeid  = rhs.planeid ;
-   		return *this;
+   		return *this; //returnarea obiectului left-handed
     	}
     	
 	int getplaneId ( ) {return planeid;}
 
-  private:
+  protected:
     	int planeid;
 };
 
