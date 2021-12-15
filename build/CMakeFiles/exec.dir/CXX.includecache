@@ -6,29 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/roger/Desktop/IEP/lab4/Avion.cpp
-string
--
+/home/roger/Desktop/IEP/lab4/Investment.cpp
 iostream
 -
-
-/home/roger/Desktop/IEP/lab4/Safe.cpp
-utility
+memory
 -
 
-/home/roger/Desktop/IEP/lab4/Tomcat.cpp
+/home/roger/Desktop/IEP/lab4/Lock.cpp
 iostream
 -
-string
+mutex
 -
-Avion.cpp
-/home/roger/Desktop/IEP/lab4/Avion.cpp
 
 /home/roger/Desktop/IEP/lab4/main.cpp
-./Tomcat.cpp
-/home/roger/Desktop/IEP/lab4/Tomcat.cpp
-./Safe.cpp
-/home/roger/Desktop/IEP/lab4/Safe.cpp
+./Investment.cpp
+/home/roger/Desktop/IEP/lab4/Investment.cpp
+./Lock.cpp
+/home/roger/Desktop/IEP/lab4/Lock.cpp
 iostream
+-
+memory
 -
 

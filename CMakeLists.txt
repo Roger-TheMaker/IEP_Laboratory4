@@ -17,6 +17,5 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 #Define executable
 add_executable(${PROJECT_NAME} 
 	main.cpp
-	Tomcat.cpp
-	Avion.cpp
-	Safe.cpp)
+	Lock.cpp
+	Investment.cpp)

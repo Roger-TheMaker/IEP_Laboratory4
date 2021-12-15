@@ -70,62 +70,47 @@ CMakeFiles/exec.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exec.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roger/Desktop/IEP/lab4/main.cpp -o CMakeFiles/exec.dir/main.cpp.s
 
-CMakeFiles/exec.dir/Tomcat.cpp.o: CMakeFiles/exec.dir/flags.make
-CMakeFiles/exec.dir/Tomcat.cpp.o: ../Tomcat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roger/Desktop/IEP/lab4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exec.dir/Tomcat.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exec.dir/Tomcat.cpp.o -c /home/roger/Desktop/IEP/lab4/Tomcat.cpp
+CMakeFiles/exec.dir/Lock.cpp.o: CMakeFiles/exec.dir/flags.make
+CMakeFiles/exec.dir/Lock.cpp.o: ../Lock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roger/Desktop/IEP/lab4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exec.dir/Lock.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exec.dir/Lock.cpp.o -c /home/roger/Desktop/IEP/lab4/Lock.cpp
 
-CMakeFiles/exec.dir/Tomcat.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exec.dir/Tomcat.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roger/Desktop/IEP/lab4/Tomcat.cpp > CMakeFiles/exec.dir/Tomcat.cpp.i
+CMakeFiles/exec.dir/Lock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exec.dir/Lock.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roger/Desktop/IEP/lab4/Lock.cpp > CMakeFiles/exec.dir/Lock.cpp.i
 
-CMakeFiles/exec.dir/Tomcat.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exec.dir/Tomcat.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roger/Desktop/IEP/lab4/Tomcat.cpp -o CMakeFiles/exec.dir/Tomcat.cpp.s
+CMakeFiles/exec.dir/Lock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exec.dir/Lock.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roger/Desktop/IEP/lab4/Lock.cpp -o CMakeFiles/exec.dir/Lock.cpp.s
 
-CMakeFiles/exec.dir/Avion.cpp.o: CMakeFiles/exec.dir/flags.make
-CMakeFiles/exec.dir/Avion.cpp.o: ../Avion.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roger/Desktop/IEP/lab4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exec.dir/Avion.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exec.dir/Avion.cpp.o -c /home/roger/Desktop/IEP/lab4/Avion.cpp
+CMakeFiles/exec.dir/Investment.cpp.o: CMakeFiles/exec.dir/flags.make
+CMakeFiles/exec.dir/Investment.cpp.o: ../Investment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roger/Desktop/IEP/lab4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exec.dir/Investment.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exec.dir/Investment.cpp.o -c /home/roger/Desktop/IEP/lab4/Investment.cpp
 
-CMakeFiles/exec.dir/Avion.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exec.dir/Avion.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roger/Desktop/IEP/lab4/Avion.cpp > CMakeFiles/exec.dir/Avion.cpp.i
+CMakeFiles/exec.dir/Investment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exec.dir/Investment.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roger/Desktop/IEP/lab4/Investment.cpp > CMakeFiles/exec.dir/Investment.cpp.i
 
-CMakeFiles/exec.dir/Avion.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exec.dir/Avion.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roger/Desktop/IEP/lab4/Avion.cpp -o CMakeFiles/exec.dir/Avion.cpp.s
-
-CMakeFiles/exec.dir/Safe.cpp.o: CMakeFiles/exec.dir/flags.make
-CMakeFiles/exec.dir/Safe.cpp.o: ../Safe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/roger/Desktop/IEP/lab4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exec.dir/Safe.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exec.dir/Safe.cpp.o -c /home/roger/Desktop/IEP/lab4/Safe.cpp
-
-CMakeFiles/exec.dir/Safe.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exec.dir/Safe.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/roger/Desktop/IEP/lab4/Safe.cpp > CMakeFiles/exec.dir/Safe.cpp.i
-
-CMakeFiles/exec.dir/Safe.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exec.dir/Safe.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roger/Desktop/IEP/lab4/Safe.cpp -o CMakeFiles/exec.dir/Safe.cpp.s
+CMakeFiles/exec.dir/Investment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exec.dir/Investment.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/roger/Desktop/IEP/lab4/Investment.cpp -o CMakeFiles/exec.dir/Investment.cpp.s
 
 # Object files for target exec
 exec_OBJECTS = \
 "CMakeFiles/exec.dir/main.cpp.o" \
-"CMakeFiles/exec.dir/Tomcat.cpp.o" \
-"CMakeFiles/exec.dir/Avion.cpp.o" \
-"CMakeFiles/exec.dir/Safe.cpp.o"
+"CMakeFiles/exec.dir/Lock.cpp.o" \
+"CMakeFiles/exec.dir/Investment.cpp.o"
 
 # External object files for target exec
 exec_EXTERNAL_OBJECTS =
 
 exec: CMakeFiles/exec.dir/main.cpp.o
-exec: CMakeFiles/exec.dir/Tomcat.cpp.o
-exec: CMakeFiles/exec.dir/Avion.cpp.o
-exec: CMakeFiles/exec.dir/Safe.cpp.o
+exec: CMakeFiles/exec.dir/Lock.cpp.o
+exec: CMakeFiles/exec.dir/Investment.cpp.o
 exec: CMakeFiles/exec.dir/build.make
 exec: CMakeFiles/exec.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roger/Desktop/IEP/lab4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable exec"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/roger/Desktop/IEP/lab4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable exec"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exec.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

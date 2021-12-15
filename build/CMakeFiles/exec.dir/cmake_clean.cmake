@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/exec.dir/Avion.cpp.o"
-  "CMakeFiles/exec.dir/Safe.cpp.o"
-  "CMakeFiles/exec.dir/Tomcat.cpp.o"
+  "CMakeFiles/exec.dir/Investment.cpp.o"
+  "CMakeFiles/exec.dir/Lock.cpp.o"
   "CMakeFiles/exec.dir/main.cpp.o"
   "exec"
   "exec.pdb"
