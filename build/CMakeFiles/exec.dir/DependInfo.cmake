@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/roger/Desktop/IEP/lab4/Investment.cpp" "/home/roger/Desktop/IEP/lab4/build/CMakeFiles/exec.dir/Investment.cpp.o"
   "/home/roger/Desktop/IEP/lab4/Lock.cpp" "/home/roger/Desktop/IEP/lab4/build/CMakeFiles/exec.dir/Lock.cpp.o"
+  "/home/roger/Desktop/IEP/lab4/Rectangle.cpp" "/home/roger/Desktop/IEP/lab4/build/CMakeFiles/exec.dir/Rectangle.cpp.o"
   "/home/roger/Desktop/IEP/lab4/main.cpp" "/home/roger/Desktop/IEP/lab4/build/CMakeFiles/exec.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

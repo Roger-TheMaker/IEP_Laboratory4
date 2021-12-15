@@ -177,6 +177,33 @@ Lock.cpp.s:
 	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/Lock.cpp.s
 .PHONY : Lock.cpp.s
 
+Rectangle.o: Rectangle.cpp.o
+
+.PHONY : Rectangle.o
+
+# target to build an object file
+Rectangle.cpp.o:
+	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/Rectangle.cpp.o
+.PHONY : Rectangle.cpp.o
+
+Rectangle.i: Rectangle.cpp.i
+
+.PHONY : Rectangle.i
+
+# target to preprocess a source file
+Rectangle.cpp.i:
+	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/Rectangle.cpp.i
+.PHONY : Rectangle.cpp.i
+
+Rectangle.s: Rectangle.cpp.s
+
+.PHONY : Rectangle.s
+
+# target to generate assembly for a file
+Rectangle.cpp.s:
+	$(MAKE) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/Rectangle.cpp.s
+.PHONY : Rectangle.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... Lock.o"
 	@echo "... Lock.i"
 	@echo "... Lock.s"
+	@echo "... Rectangle.o"
+	@echo "... Rectangle.i"
+	@echo "... Rectangle.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

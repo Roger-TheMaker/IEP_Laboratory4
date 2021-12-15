@@ -18,4 +18,5 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_executable(${PROJECT_NAME} 
 	main.cpp
 	Lock.cpp
-	Investment.cpp)
+	Investment.cpp
+	Rectangle.cpp)

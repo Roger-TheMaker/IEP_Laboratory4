@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/exec.dir/Investment.cpp.o"
   "CMakeFiles/exec.dir/Lock.cpp.o"
+  "CMakeFiles/exec.dir/Rectangle.cpp.o"
   "CMakeFiles/exec.dir/main.cpp.o"
   "exec"
   "exec.pdb"

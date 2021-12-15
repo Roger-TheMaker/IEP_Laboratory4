@@ -18,11 +18,19 @@ iostream
 mutex
 -
 
+/home/roger/Desktop/IEP/lab4/Rectangle.cpp
+iostream
+-
+memory
+-
+
 /home/roger/Desktop/IEP/lab4/main.cpp
 ./Investment.cpp
 /home/roger/Desktop/IEP/lab4/Investment.cpp
 ./Lock.cpp
 /home/roger/Desktop/IEP/lab4/Lock.cpp
+./Rectangle.cpp
+/home/roger/Desktop/IEP/lab4/Rectangle.cpp
 iostream
 -
 memory

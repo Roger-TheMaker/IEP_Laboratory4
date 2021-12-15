@@ -1,5 +1,6 @@
 #include "./Investment.cpp"
 #include "./Lock.cpp"
+#include "./Rectangle.cpp"
 
 #include <iostream>
 #include<memory>
@@ -30,14 +31,15 @@ void f(){
 	std::unique_ptr<Investment> pInv(new Investment);
 	//std::unique_ptr<Investment> pInv_beta = pInv;
 	
-	std::unique_ptr<Investment> pInv_beta = std::move(pInv); 
 
 	//std::unique_ptr<Investment> pInv1(pInv);
+	
 	/*error: use of deleted function ‘std::unique_ptr<_Tp, _Dp>::unique_ptr etc
 	unique_ptr(const unique_ptr&) = delete;  */
 
 	
 	//unique_ptr<Investment> pInv2(NULL);
+	
 	//call of overloaded ‘unique_ptr(NULL)’ is ambiguous
 	
 	//pInv2 = pInv1;
@@ -106,8 +108,40 @@ int main(int argc, char *argv[])
 
 	p6.reset();  // Memory still exists, due to p2.
 	p7.reset();  // Frees the memory, since no one else owns the memory.
+	
+	
+	    cout << "Unique example" << endl;
+	    unique_ptr<Rectangle> P10(new Rectangle(5, 10));
+	    cout << P10->area() << endl; // This'll print 50
+	 
+	    // unique_ptr<Rectangle> P2(P1);
+	    unique_ptr<Rectangle> P20;
+	    P20 = move(P10);
+	 
+	    // This'll print 50
+	    cout << P20->area() << endl;
+	 
+	    // cout<<P1->area()<<endl;
+	
 
-
+	    cout << "Shared example" << endl;
+	    
+	    shared_ptr<Rectangle> P1(new Rectangle(5, 10));
+	    // This'll print 50
+	    cout << P1->area() << endl;
+	 
+	    shared_ptr<Rectangle> P2;
+	    P2 = P1;
+	 
+	    // This'll print 50
+	    cout << P2->area() << endl;
+	 
+	    // This'll now not give an error,
+	    cout << P1->area() << endl;
+	 
+	    // This'll also print 50 now
+	    // This'll print 2 as Reference Counter is 2
+	    cout << P1.use_count() << endl;
 
 
 	return 0;
