@@ -8,15 +8,14 @@
 using namespace std;
 
 
-void doSomething(){
+void function_lock(){
 	mutex m;
+	
 	Lock lock(&m);
-
-
-	Lock lock1(lock);
+	Lock new_lock(lock);
 }
 
-void f(){
+void my_function(){
 
 	/*
 	pointerii smart sunt ca niste templateuri
@@ -89,13 +88,12 @@ int main(int argc, char *argv[])
 {
 
 
-	doSomething();
+    function_lock(); 
 
-
-
-    f();
+    my_function(); // pentru constructori si destructori
     
-    //Exemple
+    
+    //Exemple de unique si shared
     
 	std::unique_ptr<int> p1(new int(5));
 	//std::unique_ptr<int> p2 = p1;  // Compile error.
@@ -124,7 +122,11 @@ int main(int argc, char *argv[])
 	    // cout<<P1->area()<<endl;
 	
 
+// ----------------------------------------------------------------------------- //
+
+
 	    cout << "Shared example" << endl;
+	   
 	    
 	    shared_ptr<Rectangle> P1(new Rectangle(5, 10));
 	    // This'll print 50

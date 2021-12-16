@@ -6,10 +6,10 @@ using namespace std;
 class Investment{
 public:
 	Investment(){
-	cout << "Constructing Investment ..." << endl;
+	cout << "Constructor Investment" << endl;
 }
 	~Investment(){
-		cout << "Destructing Investment ..." << endl;
+		cout << "Destructor Investment" << endl;
 	}
 
 };

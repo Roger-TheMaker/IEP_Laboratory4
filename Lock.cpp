@@ -1,21 +1,29 @@
-#include<iostream>
-#include<mutex>
-using namespace std;
+#include <iostream>
+#include <mutex>
 
+class Lock
+{
+    public:
+        explicit Lock(std::mutex *mutex) : myMutex(mutex) {
+            lock(myMutex);
+        }
 
-class Lock{
-public:
-	explicit Lock(mutex* pm) : mutexPtr_(pm){
-		if(mutexPtr_->try_lock()){
-			cout << "Locked" << endl;
-		}else{
-			cout << "Locking Failed" << endl;
-		}
-	}
-	~Lock(){
-		mutexPtr_->unlock();
-		cout << "Unlocked" << endl;
-	}
-private:
-	mutex * mutexPtr_;
+        ~Lock() {
+            unlock(myMutex);
+        }
+
+    private:
+        std::mutex *myMutex;
+
+    void lock(std::mutex *m) 
+    {
+        m->lock();
+        std::cout << "\n" << "Flag is locked" << std::endl;
+    }
+
+    void unlock(std::mutex *m)
+    {
+        m->unlock();
+        std::cout << "Flag is unlocked" << std::endl;
+    }
 };
